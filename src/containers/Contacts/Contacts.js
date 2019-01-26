@@ -25,6 +25,7 @@ const Contacts = () => (
     <Grid className="contacts-list" columns={contacts.length} divided>
       {contacts.map(contact => (
         <Contact
+          key={contact.email}
           name={contact.name}
           phone={contact.phone}
           email={contact.email}
