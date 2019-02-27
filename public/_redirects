@@ -1,1 +1,5 @@
+# Redirect all requests to index.html (dynamic routing)
 /* /index.html 200
+
+# Redirect default Netlify subdomain to primary domain
+https://sleepy-stonebraker-be0065.netlify.com/* https://sarlbonnevial.fr/:splat 301!
